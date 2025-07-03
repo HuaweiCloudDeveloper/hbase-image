@@ -14,7 +14,7 @@
 
 ## 项目介绍
 
-[hbase](https://github.com/apache/hbase)  是分布式、面向列族存储的NoSQL数据库。本商品基于鲲鹏服务器的Huawei Cloud EulerOS 2.0 64bit系统，提供开箱即用的hbase计算平台。
+[hbase](https://github.com/apache/hbase)  是分布式、面向列族存储的NoSQL数据库。本商品基于鲲鹏服务器的Huawei Cloud EulerOS 2.0 64bit系统，提供开箱即用的hbase数据库。
 
 ## ‌核心优势
 

@@ -13,7 +13,7 @@
 
 ## Repository Introduction
 
-[HBase](https://github.com/apache/hbase) is a distributed, column-family-oriented NoSQL database. This product provides an out-of-the-box HBase computing platform based on the Huawei Cloud EulerOS 2.0 64-bit system on Kunpeng servers.
+[HBase](https://github.com/apache/hbase) is a distributed NoSQL database oriented towards column family storage. This product is based on the Huawei Cloud EulerOS 2.0 64-bit system of the Kunpeng server and provides an out-of-the-box hbase database.
 
 ## Core Advantages
 
