@@ -26,7 +26,7 @@ HBase是分布式、面向列族存储的NoSQL数据库。该产品基于鲲鹏�
 ![img.png](images/img6.png)
 如下图“Apply required resource success. ”即为资源创建完成
 ![img.png](images/img7.png)
-# 3.2 ECS 控制台配置
+## 3.2 ECS 控制台配置
 
 ### 准备工作
 
