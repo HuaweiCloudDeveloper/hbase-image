@@ -61,7 +61,7 @@ HBase是分布式、面向列族存储的NoSQL数据库。该产品基于鲲鹏�
 # 四、商品使用
 
 ## 启动Hbase依赖组件(1、2、3、4)及Hbase服务(5)
-* 1. 更新机器名称和ip映射  
+### 1. 更新机器名称和ip映射  
 ```shell
 vim /etc/hosts  
 ```
@@ -74,7 +74,7 @@ X.X.X.X hadoop3
 
 X.X.X.X 修改成本机实际ip 如192.168.10.2  
 
-* 2. 重新生成免密登录,重置用户hadoop 密码例如:123456 ,建议采用符合密码复杂度的密码   
+### 2. 重新生成免密登录,重置用户hadoop 密码例如:123456 ,建议采用符合密码复杂度的密码   
 
 2.1 删除旧密钥文件    
 ```shell
@@ -94,7 +94,7 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub hadoop3    -- hadoop 密码例如:123456
 ```
 注意:本机(hadoop1)也要执行!    
 
-* 3. 在hadoop家目录下($HADOOP_HOME)启动hadoop集群   
+### 3. 在hadoop家目录下($HADOOP_HOME)启动hadoop集群   
 ```shell
 cd /home/hadoop-3.3.1/sbin/ 
 ```
@@ -119,7 +119,7 @@ mr-jobhistory-daemon.sh start historyserver
 mapred --daemon start historyserver --优先    
 mr-jobhistory-daemon.sh start historyserver -- 会提示已过时,次选    
 
-* 4. 启动zk服务
+### 4. 启动zk服务
 ```shell
 $ZOOKEEPER_HOME/bin/zkServer.sh start  
 $ZOOKEEPER_HOME/bin/zkServer.sh status   
@@ -132,7 +132,7 @@ $ZOOKEEPER_HOME/bin/zkServer.sh status -- 查看zk状态
 ![img_1.png](images/img9_2.png)
 ![img_1.png](images/img9_3.png)
 
-* 5. 启动Hbase服务
+### 5. 启动Hbase服务
 ```shell
 cd /home/hbase/bin
 ./start-hbase.sh 
