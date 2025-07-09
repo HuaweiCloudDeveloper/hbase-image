@@ -22,7 +22,7 @@
 - **‌低延迟‌：** 随机读写延迟低（毫秒级），适合需要快速响应的应用。‌
 - **可扩展性‌：** 通过自动分区和负载均衡支持动态扩容，无需停机维护。
 
-本项目提供的开源镜像商品 [**hbase数据库**](https://marketplace.huaweicloud.com/contents/ee3fcfb7-1d48-4217-bf29-5de5e01bec31#productid=OFFI1123074911957217280) 已预先安装2.4.18版本的Hbase及其相关运行环境，并提供部署模板。快来参照使用指南，轻松开启“开箱即用”的高效体验吧。
+本项目提供的开源镜像商品 [**hbase数据库**](https://marketplace.huaweicloud.com/contents/ee3fcfb7-1d48-4217-bf29-5de5e01bec31#productid=OFFI1123074911957217280) 已预先安装Hbase及其相关运行环境，并提供部署模板。快来参照使用指南，轻松开启“开箱即用”的高效体验吧。
 
 
 > **系统要求如下：**
@@ -38,6 +38,7 @@
 | 镜像规格                                                                                                      | 特性说明 | 备注 |
 |-----------------------------------------------------------------------------------------------------------| --- | --- |
 | [hbase-2.4.18-kunpeng](https://github.com/HuaweiCloudDeveloper/hbase-image/tree/hbase-2.4.18-kunpeng) | 基于鲲鹏服务器 + Huawei Cloud EulerOS 2.0 64bit 安装部署 |  |
+| [hbase-2.2.3-kunpeng-BoostKit](https://github.com/HuaweiCloudDeveloper/hbase-image/tree/hbase-2.2.3-kunpeng-BoostKit) | 基于鲲鹏服务器 + Huawei Cloud EulerOS 2.0 64bit 安装部署 |  |
 
 ## 获取帮助
 - 更多问题可通过 [issue](https://github.com/HuaweiCloudDeveloper/hbase-image/issues) 或 华为云云商店指定商品的服务支持 与我们取得联系
