@@ -47,7 +47,7 @@ HBase是分布式、面向列族存储的NoSQL数据库。该产品基于鲲鹏�
 ![img_1.png](images/img_1.png)
 选择镜像
 ![img_2.png](images/img_2.png)
-其他参数根据实际请客进行填写，填写完成之后，点击立即购买即可
+其他参数根据实际情况进行填写，填写完成之后，点击立即购买即可
 ![img_3.png](images/img_3.png)
 
 
