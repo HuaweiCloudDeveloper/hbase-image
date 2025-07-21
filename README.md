@@ -1,7 +1,7 @@
 # hbase-2.2.3-kunpeng-BoostKit
 
 ## 规格说明
-- 镜像商品：[hbase数据库](https://marketplace.huaweicloud.com/contents/ee3fcfb7-1d48-4217-bf29-5de5e01bec31#productid=OFFI1123074911957217280)
+- 镜像商品：[hbase数据库](https://marketplace.huaweicloud.com/contents/ee3fcfb7-1d48-4217-bf29-5de5e01bec31#productid=OFFI1123074922628407296)
 - 镜像规格：hbase-2.2.3-kunpeng-BoostKit
 - 适配项：[ECS](https://support.huaweicloud.com/ecs/index.html)
 - CPU架构：ARM

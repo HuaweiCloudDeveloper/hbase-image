@@ -2,7 +2,7 @@
 
 # 一、商品链接
 
-[Hbase数据库](https://marketplace.huaweicloud.com/contents/ee3fcfb7-1d48-4217-bf29-5de5e01bec31#productid=OFFI1123074911957217280)
+[Hbase数据库](https://marketplace.huaweicloud.com/contents/ee3fcfb7-1d48-4217-bf29-5de5e01bec31#productid=OFFI1123074922628407296)
 
 # 二、商品说明
 
@@ -15,6 +15,8 @@ HBase是分布式、面向列族存储的NoSQL数据库。该产品基于鲲鹏�
 
 
 ## 3.1 使用 RFS 模板直接部署
+* 本方式购买可以一次性完成集群3台节点的购买。(一次可以买3台ECS节点)    
+
 ![img.png](images/img1.png)
 必填项填写后，点击 下一步
 ![img.png](images/img2.png)
@@ -27,6 +29,7 @@ HBase是分布式、面向列族存储的NoSQL数据库。该产品基于鲲鹏�
 如下图“Apply required resource success. ”即为资源创建完成
 ![img.png](images/img7.png)
 ## 3.2 ECS 控制台配置
+* 本方式购买每次只能购买集群中的一个节点, 3台节点需要购买3次。(一次只买1台ECS节点)      
 
 ### 准备工作
 
@@ -39,16 +42,16 @@ HBase是分布式、面向列族存储的NoSQL数据库。该产品基于鲲鹏�
 
 ### 创建ECS
 
-前提工作准备好后，选择 ECS 控制台配置跳转到[购买ECS](https://support.huaweicloud.com/qs-ecs/ecs_01_0103.html) 页面，ECS 资源的配置如下图所示：
+前提工作准备好后，选择 ECS 控制台配置跳转到[购买ECS](https://support.huaweicloud.com/qs-ecs/ecs_01_0103.html) 页面，ECS 资源的配置如下图所示:    
 
-选择CPU架构
-![img.png](images/img8.png)
-选择服务器规格
-![img_1.png](images/img_1.png)
-选择镜像
-![img_2.png](images/img_2.png)
-其他参数根据实际情况进行填写，填写完成之后，点击立即购买即可
-![img_3.png](images/img_3.png)
+选择CPU架构    
+![img.png](images/img3-2-1.png)    
+选择服务器规格    
+![img.png](images/img3-2-2.png)    
+选择镜像    
+![img.png](images/img3-2-3.png)    
+其他参数根据实际情况进行填写，填写完成之后，点击立即购买即可       
+![img.png](images/img3-2-4.png)    
 
 
 > **值得注意的是：**
@@ -127,10 +130,10 @@ $ZOOKEEPER_HOME/bin/zkServer.sh status
 注意:    
 $ZOOKEEPER_HOME/bin/zkServer.sh start -- 启动zk,在3个节点都执行.  
 $ZOOKEEPER_HOME/bin/zkServer.sh status -- 查看zk状态    
-各节点状态如下:   
-![img_1.png](images/img9_1.png)
-![img_1.png](images/img9_2.png)
-![img_1.png](images/img9_3.png)
+各节点状态如下:     
+![img.png](images/img9_1.png)
+![img.png](images/img9_2.png)
+![img.png](images/img9_3.png)
 
 ### 5. 启动Hbase服务
 ```shell
@@ -143,11 +146,11 @@ cd /home/hbase/bin
 ## Hbase使用
 * 验证 Web UI http://ip+16010 (Master节点) 
 
-![img_1.png](images/img9_4.png)
+![img.png](images/img9_4.png)
 
 * 验证 Web UI http://ip+16030 (RegionServer节点)
 
-![img_1.png](images/img9_5.png)
+![img.png](images/img9_5.png)
 
 * 使用hbase shell操作hbase(可在Hbase集群任意一个节点操作)
 ```shell
@@ -160,7 +163,7 @@ put 'hbase_test_table', 'row1', 'cf:col1', 'value1'
 scan 'hbase_test_table'
 ``` 
 
-![img_1.png](images/img9_6.png)
+![img.png](images/img9_6.png)
 
 ### 参考文档
 [Hbase官网](https://hbase.apache.org/)
