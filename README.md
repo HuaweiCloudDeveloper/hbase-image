@@ -1,49 +1,15 @@
-<h1 align="center">HBase Database</h1>
-<p align="center">
-    <strong>English</strong> | <a href="README_ZH.md">简体中文</a>
-</p>
+# hbase-2.2.3-kunpeng-BoostKit
 
-## Table of Contents
+## 规格说明
+- 镜像商品：[hbase数据库](https://marketplace.huaweicloud.com/contents/ee3fcfb7-1d48-4217-bf29-5de5e01bec31#productid=OFFI1123074922628407296)
+- 镜像规格：hbase-2.2.3-kunpeng-BoostKit
+- 适配项：[ECS](https://support.huaweicloud.com/ecs/index.html)
+- CPU架构：ARM
+- 操作系统：Huawei Cloud EulerOS 2.0 64bit
+- 资源编排服务（RFS）：ECS + EIP + VPC
 
-- [Repository Introduction](#repository-introduction)
-- [Prerequisites](#prerequisites)
-- [Image Description](#image-description)
-- [Get Help](#get-help)
-- [How to Contribute](#how-to-contribute)
+## 使用说明
 
-## Repository Introduction
+- 华为云云商店：[hbase数据库使用指南](./docs/usage.md)
 
-[HBase](https://github.com/apache/hbase) is a distributed NoSQL database oriented towards column family storage. This product is based on the Huawei Cloud EulerOS 2.0 64-bit system of the Kunpeng server and provides an out-of-the-box hbase database.
-
-## Core Advantages
-
-- **High Throughput**: Supports tens of thousands of read and write requests per second, suitable for real-time data analysis scenarios.
-- **Low Latency**: Low random read and write latency (in milliseconds), suitable for applications requiring fast responses.
-- **Scalability**: Supports dynamic expansion through automatic partitioning and load balancing without downtime for maintenance.
-
-The open-source image product [**HBase Database**](https://marketplace.huaweicloud.com/intl/hidden/contents/0b6d946d-7b34-4793-a5f8-4e02edb6a0d2) provided by this project has the HBase version 2.4.18 and its related runtime environment pre-installed, and also provides deployment templates. Refer to the usage guide and start your efficient "out-of-the-box" experience now!
-
-> **System requirements are as follows:**
-> - CPU: 2 vCPUs or higher
-> - RAM: 4GB or more
-> - Disk: At least 40GB
-
-## Prerequisites
-
-[Register a Huawei account and activate Huawei Cloud](https://support.huaweicloud.com/usermanual-account/account_id_001.html)
-
-## Image Description
-
-| Image Specification                                                                                                      | Feature Description | Remarks |
-|---------------------------------------------------------------------------------------------------------------------------| --- | --- |
-| [hbase-2.4.18-kunpeng](https://github.com/HuaweiCloudDeveloper/hbase-image/tree/hbase-2.4.18-kunpeng) | Installed and deployed based on Kunpeng servers + Huawei Cloud EulerOS 2.0 64-bit |  |
-
-## Get Help
-
-- For more questions, you can contact us through [issues](https://github.com/HuaweiCloudDeveloper/hbase-image/issues) or the service support of the specified product in the Huawei Cloud Marketplace.
-- For other open-source images, refer to [open-source-image-repos](https://github.com/HuaweiCloudDeveloper/open-source-image-repos).
-
-## How to Contribute
-
-- Fork this repository and submit a merge request.
-- Update the README.md based on your open-source image information.
+更多问题可通过 [**issue**](https://github.com/HuaweiCloudDeveloper/hbase-image/issues) 或 **华为云云商店指定商品的服务支持** 与我们取得联系。
